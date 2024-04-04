@@ -30,14 +30,22 @@
   }
 
   .imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
   }
 
   .forms {
-    float: right;
+    float: left;
     width: 50%;
     height: 100%;
+  }
+
+  .forms > h1 {
+    font-size: 1.2em;
+  }
+
+  .forms > p {
+    font-size: 0.8em;
   }
 }

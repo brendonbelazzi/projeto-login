@@ -48,4 +48,10 @@ section.login {
 .forms {
   padding: 15px;
   display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.forms > p {
+  font-size: 0.8em;
 }
