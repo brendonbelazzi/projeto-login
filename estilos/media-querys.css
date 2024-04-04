@@ -33,6 +33,7 @@
 
   section.login {
     width: 950px;
+    height: 420px;
   }
 
   .imagem {
@@ -48,10 +49,11 @@
   }
 
   .forms > h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .forms > p {
-    font-size: 0.8em;
+    padding: 10px 0px;
+    font-size: 1em;
   }
 }
