@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to top, #8fd1d9, #012326, #011826);
+  }
+
+  section.login {
+    width: 90vw;
+  }
+
+  .imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+
+  .forms {
+    float: right;
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-image: linear-gradient(to top, #8fd1d9, #012326, #011826);
+  }
+
+  section.login {
+    width: 950px;
+  }
+
+  .imagem {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+
+  .forms {
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+}
