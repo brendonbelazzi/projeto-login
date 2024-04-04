@@ -5,6 +5,7 @@
 
   section.login {
     width: 90vw;
+    height: 350px;
   }
 
   .imagem {
@@ -17,6 +18,11 @@
     float: right;
     width: 70%;
     height: 100%;
+  }
+
+  .forms > p {
+    padding: 10px 0px;
+    font-size: 1em;
   }
 }
 

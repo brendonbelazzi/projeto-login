@@ -25,8 +25,8 @@ section.login {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  width: 250px;
-  height: 500px;
+  width: 260px;
+  height: 510px;
   margin: auto;
   border-radius: 20px;
 
@@ -54,4 +54,75 @@ section.login {
 
 .forms > p {
   font-size: 0.8em;
+}
+
+.campo {
+  background-color: #011826f3;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  margin: 5px 0px;
+  color: rgb(213, 255, 251);
+}
+
+.campo > label {
+  display: none;
+}
+
+.campo > span {
+  color: white;
+  font-size: 2em;
+  width: 40px;
+  padding: 5px;
+  margin: 5px 5px 0px 0px;
+}
+
+.campo > input {
+  background-color: #5d8c8c;
+  font-size: 0.9em;
+  width: calc(100% - 49.9px);
+  transform: translateY(-11px);
+  height: 100%;
+  border: 2px solid #011826f3;
+  border-radius: 8px;
+}
+
+.campo > input:focus-within {
+  background-color: white;
+}
+
+.enviar {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: #5d8c8c;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.enviar:hover {
+  background-color: #304747;
+  transition: 0.3s;
+}
+
+a.botao {
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: #024e7e;
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.botao:hover {
+  background-color: #012a44;
+  transition: 0.3s;
 }
